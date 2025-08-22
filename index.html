@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task 5 - E-Commerce Web App</title>
+  <link rel="stylesheet" href="styles.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Simple E-Commerce Store</h1>
+    <nav>
+      <button id="cartToggleBtn">Cart (<span id="cartCount">0</span>)</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productList" class="product-grid"></section>
+  </main>
+
+  <aside id="cartPanel" class="cart-panel hidden">
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+    <p>Total: ₹<span id="cartTotal">0</span></p>
+    <button id="checkoutBtn">Checkout</button>
+    <button id="closeCartBtn">Close</button>
+  </aside>
+
+  <script src="script.min.js" defer></script>
+</body>
+</html>
